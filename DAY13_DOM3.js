@@ -56,24 +56,24 @@ Button.addEventListener('click', function () {
 
 })
 
-function CreateButton(li) {
+function CreateButton(lilist) {
 
     let removeButton = document.createElement('button')
     removeButton.textContent = "Remove"
     removeButton.classList = "remove"
-    li.appendChild(removeButton)
+    lilist.appendChild(removeButton)
 
 
     let upButton = document.createElement('button')
     upButton.textContent = "Up"
     upButton.classList = "up"
-    li.appendChild(upButton)
+    lilist.appendChild(upButton)
 
 
     let downButton = document.createElement('button')
     downButton.textContent = "Down"
     downButton.classList = "down"
-    li.appendChild(downButton)
+    lilist.appendChild(downButton)
 
 
 }
